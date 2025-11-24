@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "dev.hex.teamprojecte.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PECoreCapabilityMixin",
+    "TransmutationOfflineMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
